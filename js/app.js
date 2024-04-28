@@ -97,6 +97,21 @@ var score = 69;
 // https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch
 // for touch screen
 
+this.buttonShoot = this.add.button(
+  this.world.width * 0.5,
+  0,
+  "button-alpha",
+  null,
+  this,
+);
+this.buttonShoot.onInputDown.add(this.goShootPressed, this);
+this.buttonShoot.onInputUp.add(this.goShootReleased, this);
+
+//
+// end of touchscreen routine 
+//
+
+
 document.addEventListener('keyup', function(e) {
     var allowedKeys = {
         37: 'left',
