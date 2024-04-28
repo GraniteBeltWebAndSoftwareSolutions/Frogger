@@ -93,6 +93,9 @@ var player = new Player(215, 460);
 
 var score = 0;
 
+// https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch
+// for touch screen 
+
 document.addEventListener('keyup', function(e) {
     var allowedKeys = {
         37: 'left',
