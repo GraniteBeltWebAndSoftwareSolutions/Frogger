@@ -91,7 +91,7 @@ var allBoosters = [new Booster(80, 240), new Booster(280, 350), new Booster(380,
 var allEnemies = [new Enemy(-100, 300, 250), new Enemy(-300, 380, 150), new Enemy(-500, 220, 350), new Enemy(-700, 130, 420)];
 var player = new Player(215, 460);
 
-var score = 0;
+var score = 69;
 
 
 // https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch
