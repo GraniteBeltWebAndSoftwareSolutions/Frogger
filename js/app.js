@@ -94,8 +94,21 @@ var player = new Player(215, 460);
 var score = 69;
 
 
-// https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch
-// for touch screen
+/* https://developer.mozilla.org/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch
+   for touch screen 
+*/
+
+const buttonEnclave = this.add.button(
+  10,
+  10,
+  "logo-enclave",
+  this.clickEnclave,
+  this,
+);
+
+
+
+
 
 this.buttonShoot = this.add.button(
   this.world.width * 0.5,
