@@ -10,8 +10,8 @@ var Engine = (function(global) {
         //we get the 2d context from the canvas which will be used to draw on the
         //canvas and win is a global object
 
-    canvas.width = 755;
-    canvas.height = 856;
+    canvas.width = 505;
+    canvas.height = 606;
     doc.body.appendChild(canvas);
 
 // here is a gameloop where i have used request animationframe that will be used to
@@ -98,8 +98,8 @@ var Engine = (function(global) {
                 'images/grass-block.png',   
                 'images/grass-block.png'   
             ],
-            numRows = 8,
-            numCols = 8,
+            numRows = 7,
+            numCols = 5,
             row, col;
 
         for (row = 0; row < numRows; row++) {
